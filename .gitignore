@@ -3,4 +3,5 @@ dist/
 bin/
 include/
 lib/
+local/
 lib64
