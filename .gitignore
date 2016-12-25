@@ -1,0 +1,6 @@
+tellcrux.egg-info/
+dist/
+bin/
+include/
+lib/
+lib64
