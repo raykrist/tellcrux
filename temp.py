@@ -13,8 +13,8 @@ core = td.TelldusCore()
 sensors = core.sensors()
 
 valid_sensors = dict()
-valid_sensors[21] = 'stue'
-valid_sensors[31] = 'server'
+valid_sensors[21] = 'server'
+valid_sensors[31] = 'stue'
 valid_sensors[51] = 'kjokken'
 
 c = statsd.StatsClient('192.168.3.42', 8125, prefix='telldus')
