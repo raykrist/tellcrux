@@ -1,10 +1,10 @@
 ## Development
 
-Use virtualenv with global site packages:
+Use virtualenv:
 
 ```bash
-cd himlarcli
-virtualenv . --system-site-packages
+cd tellcrux
+virtualenv .
 source bin/activate
 python setup.py develop
 
