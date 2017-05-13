@@ -17,7 +17,7 @@ valid_sensors[21] = 'server'
 valid_sensors[31] = 'stue'
 valid_sensors[51] = 'kjokken'
 
-c = statsd.StatsClient('192.168.3.42', 8125, prefix='telldus')
+c = statsd.StatsClient('192.168.3.40', 8125, prefix='telldus')
 
 for sensor in sensors:
 	if sensor.id in valid_sensors.keys():
