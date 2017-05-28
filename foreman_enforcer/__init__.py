@@ -1,2 +1,2 @@
 """ Tellcrux module """
-__all__ = ['client']
+__all__ = ['enforcer', 'resources']
