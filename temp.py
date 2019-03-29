@@ -16,8 +16,8 @@ valid_sensors = dict()
 valid_sensors[21] = 'server'
 valid_sensors[31] = 'stue'
 valid_sensors[11] = 'kjokken'
-valid_sensors[24] = 'misc'
-valid_sensors[135] = 'unknown'
+valid_sensors[62] = 'misc'
+#valid_sensors[135] = 'unknown'
 
 c = statsd.StatsClient('192.168.3.40', 8125, prefix='telldus')
 
